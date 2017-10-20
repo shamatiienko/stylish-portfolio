@@ -1,0 +1,19 @@
+// Styling for footer section
+
+footer{
+    padding: 100px 0;
+    #to-top{
+        font-size: 1em;
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+        padding: 20px;
+        display: none;
+    }
+    a{
+        color:#95DEE3;
+        &:hover{
+            color:#95cfe3;
+        }
+    }
+}

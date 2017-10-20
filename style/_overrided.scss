@@ -1,0 +1,23 @@
+// Overrided Bootstrap 4
+
+.btn-dark{
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 15px;    
+    background-color: rgba(0, 0, 0, .4);
+    &:hover, &:focus, &:active{
+        background-color: rgba(0, 0, 0, .7)ł
+    }
+}
+
+.btn-light{
+    color: #333;
+    border: none;
+    border-radius: 0;
+    padding: 15px;    
+    background-color: rgb(255, 255, 255);
+    &:hover, &:focus, &:active{
+        background-color: rgba(255, 255, 255, .8);
+    }
+}

@@ -1,0 +1,27 @@
+// Global styling
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.small {
+    max-width: 100px;
+}
+
+.text-vertical-center{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; //class "align-middle" не використовуємо,
+    // бо його довелося б писати кілька раз для різних елементів, а за допомогою vertical-align- middle ми написали його тільки раз
+    h1{
+        font-size: 4.5em;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    }
+}
